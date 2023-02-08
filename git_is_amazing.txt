@@ -1,0 +1,40 @@
+Hello this is a demo for git.
+
+1. Clone this repo. 
+- You can use http or ssh. 
+- Http will be easy for this tutorial. 
+
+2. Now let's branch out!
+- We have so many hackers working on this one repo!!
+
+git checkout -b <your-name>-git-is-great
+
+
+3. Let's make a change! 
+
+- Add your name to this document right here. 
+
+Hi, I am <Your Name>. I am an explorer at hackbeapot 2023!!
+
+
+- Now add your change to git 
+
+git add .  
+
+or 
+
+git add <file_path>
+
+- Now what's a commit and how do I commit my change? 
+
+git commit -m "My first HBP commit"
+
+- NOw let's push your branch to the internet through Github 
+
+git push origin <branch-name> 
+
+
+- Now go to github and open your first pull request. 
+
+- Merge conflicts!!! 
+
