@@ -14,7 +14,7 @@ git checkout -b <your-name>-git-is-great
 
 - Add your name to this document right here. 
 
-Hi, I am <Your Name>. I am an explorer at hackbeapot 2023!!
+Hi, I am DHivas SUgumar . I am an explorer at hackbeapot 2023!!
 
 
 - Now add your change to git 
