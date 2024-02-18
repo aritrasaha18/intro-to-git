@@ -14,6 +14,8 @@ git checkout -b <your-name>-git-is-great
 
 - Add your name to this document right here. 
 
+Hi, I am Emma Vonbuelow, I am an deep sea diver at hackbeanpot 2024!
+Hi, I am Aaryan Jain, I am a deep sea diver at hackbeanpot 2024!
 Hi, I am <Your Name>. I am an explorer at hackbeapot 2023!!
 
 
@@ -29,7 +31,7 @@ git add <file_path>
 
 git commit -m "My first HBP commit"
 
-- NOw let's push your branch to the internet through Github 
+- Now let's push your branch to the internet through Github 
 
 git push origin <branch-name> 
 
