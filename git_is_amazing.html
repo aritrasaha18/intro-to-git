@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to Git</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        code {
+            font-family: monospace;
+            background-color: #eee;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        .step {
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .step h2 {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, this is a demo for Git.</h1>
+
+    <div class="step">
+        <h2>1. Clone this repo</h2>
+        <p>- You can use HTTP or SSH. HTTP will be easy for this tutorial.</p>
+    </div>
+
+    <div class="step">
+        <h2>2. Now let's branch out!</h2>
+        <p>- We have so many hackers working on this one repo!!</p>
+        <code>git checkout -b &lt;your-name&gt;-git-is-great</code>
+    </div>
+
+    <div class="step">
+        <h2>3. Let's make a change!</h2>
+        <p>- Add your name to the list below:</p>
+        <ul>
+            <li>Hi, I am Aaryan Jain, I am a deep sea diver at hackbeanpot 2024!</li>
+            <li>Hi, I am Emma Vonbuelow, I am a deep sea diver at hackbeanpot 2024!</li>
+            <li>Hi, I am &lt;Your Name&gt;, I am an explorer at hackbeanpot 2024!!</li>
+        </ul>
+        <p>Ensure you pull the latest changes from the main branch before adding your name to minimize merge conflicts.</p>
+        <code>git pull origin main</code>
+        <p>- Now add your change to git</p>
+        <code>git add .</code> or <code>git add &lt;file_path&gt;</code>
+        <p>- Now what's a commit and how do I commit my change?</p>
+        <code>git commit -m "My first HBP commit"</code>
+        <p>- Now let's push your branch to the internet through Github</p>
+        <code>git push origin &lt;branch-name&gt;</code>
+        <p>- Now go to GitHub and open your first pull request.</p>
+        <p>- Merge conflicts!!!</p>
+    </div>
+
+</body>
+</html>
